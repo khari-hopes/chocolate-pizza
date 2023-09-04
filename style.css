@@ -1,0 +1,100 @@
+body {
+  margin: 100px;
+}
+
+.paragraphs {
+  text-indent: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header-image img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.header-words {
+  flex-grow: 1;
+}
+
+.header-words h2,
+.header-words p {
+  margin: 0;
+}
+
+.titleofarticle h1,
+.titleofarticle p {
+  margin:0;
+}
+
+.titleofarticle h1 {
+  font-size: 30px;
+}
+
+.titleofarticle p {
+  font-size: 10px;
+}
+
+.printer-icon {
+  display: flex;
+  align-items: center;
+}
+
+.printer-icon p {
+  font-size: 10px;
+}
+
+.secondsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleofarticle {
+  flex-grow: 1;
+}
+
+.printer-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.person img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.person-info {
+  flex-grow: 1;
+}
+
+.person h3 {
+  margin: 0;
+}
+
+.bottomsection {
+  text-align: center;
+}
+
+button {
+  height: 35px;
+  background-color: darkorange;
+}
